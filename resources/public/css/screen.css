@@ -1,0 +1,74 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+@media (max-width: 768px) {
+   .users .user-email{
+       display: none;
+   }
+}
+
+.users {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.users li:last-child {
+    border-radius: 0;
+}
+
+.users .user-name{
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.users .user-email{
+    padding-right: 5px;
+}
+
+.users .user-gender .tag{
+    font-size: 16px;
+}
+
+.filter-input {
+    margin-bottom: 10px;
+}
+
+
+.user-info .friends img {
+    max-height: auto;
+    width: 150px;
+}
+
+.user-info .friends img,  .user-info .friends .media-body {
+    padding-bottom: 5px;
+}
+
+.user-info .friends .friend-info .label{
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.no-results {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background-color: #eee;
+    font-weight: 600;
+    padding: 10px 0;
+}
